@@ -85,6 +85,8 @@ different values for ``ref.target.oid``. If you run a node query for the id
 {
   node(id: "MDM6UmVmMTY5MzExMTIxOmJyYW5jaC1vci10YWc=") {
     ... on Ref {
+      prefix
+      name
       target {
         oid
       }
@@ -99,6 +101,8 @@ Result:
 {
   "data": {
     "node": {
+      "prefix": "refs/heads/",
+      "name": "branch-or-tag",
       "target": {
         "oid": "a259720599486889f603739fed41210970c566b9"
       }
