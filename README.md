@@ -1,4 +1,4 @@
-# GitHub GraphQL API Repository Reference issue
+# GitHub GraphQL API Repository Ref issue
 
 This repo has been created to describe the bug we're facing with references and
 the GitHub GraphQL API. This repository has a branch and a tag using the same
